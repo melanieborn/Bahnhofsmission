@@ -1,12 +1,19 @@
 <template>
-  <div class="hello">
-    <v-card text="..." variant="outlined"></v-card>
-    <v-card text="..." variant="outlined">
+  <v-container>
+<v-row>
+  <v-col cols="3" class="img">
+    <v-card>
+      <img :src="require('@/assets/ls_logo.gif')">
+  </v-card>
+  </v-col>
+  <v-col cols="6">
+    <v-card>
   Herzlich willkommen bei der Bahnhofsmission im Hauptbahnhof Berlin
 </v-card>
-
+  </v-col>
+</v-row>
     <h1>{{ msg }}</h1>
-    <p>
+    <!-- <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
@@ -31,11 +38,12 @@
       <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
-  </div>
+    </ul> -->
+  </v-container>
 </template>
 
 <script>
+
 export default {
   name: 'HelloWorld',
   props: {
@@ -59,5 +67,10 @@ li {
 }
 a {
   color: #42b983;
+}
+
+.img {
+  width: 100%;
+  height: auto;
 }
 </style>
