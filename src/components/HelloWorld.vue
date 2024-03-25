@@ -82,6 +82,5 @@ a {
 .banner {
   background-color: #0061a5;
   padding-top: 5px;
-
 }
 </style>
