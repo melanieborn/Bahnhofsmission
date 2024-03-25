@@ -1,14 +1,15 @@
 <template>
   <v-container>
 <v-row>
-  <v-col cols="3" class="img">
-    <v-card>
-      <img :src="require('@/assets/ls_logo.gif')">
-  </v-card>
+  <v-col cols="2">
+    <div class="img">
+      <img src="@/assets/ls_logo.gif">
+    </div>
   </v-col>
-  <v-col cols="6">
-    <v-card>
+  <v-col cols="8">
+    <v-card class="banner">
   Herzlich willkommen bei der Bahnhofsmission im Hauptbahnhof Berlin
+  <WeatherApi></WeatherApi>
 </v-card>
   </v-col>
 </v-row>
@@ -43,9 +44,13 @@
 </template>
 
 <script>
+import WeatherApi from '@/components/WeatherApi.vue'
 
 export default {
   name: 'HelloWorld',
+  components: {
+    WeatherApi
+  },
   props: {
     msg: String
   }
@@ -72,5 +77,11 @@ a {
 .img {
   width: 100%;
   height: auto;
+}
+
+.banner {
+  background-color: #0061a5;
+  padding-top: 5px;
+
 }
 </style>
