@@ -6,7 +6,7 @@
       <img src="@/assets/ls_logo.gif">
     </div>
   </v-col>
-  
+
     <v-col cols="8">
     <v-card class="banner">
   Herzlich willkommen bei der Bahnhofsmission im Hauptbahnhof Berlin
@@ -14,7 +14,30 @@
 </v-card>
   </v-col>
 </v-row>
-    <h1>{{ msg }}</h1>
+<v-row>
+  <v-col cols="4">
+    <v-card>
+      <MitarbeiterVerwaltung />
+    </v-card>
+  </v-col>
+  <v-col cols="4">
+    <v-card>
+      <ObdachlosenWiki />
+    </v-card>
+  </v-col>
+  <v-col cols="4">
+    <v-card>
+      <UnmsteigHilfe />
+    </v-card>
+  </v-col>
+
+</v-row>
+<v-row>
+  <v-col>
+    <FooterComponent />
+  </v-col>
+</v-row>
+<!--  <h1>{{ msg }}</h1> -->   
     <!-- <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -46,11 +69,23 @@
 
 <script>
 import WeatherApi from '@/components/WeatherApi.vue'
+import MitarbeiterVerwaltung from '@/components/MitarbeiterVerwaltung.vue'
+import FooterComponent from '@/components/FooterComponent.vue'
+import ObdachlosenWiki from '@/components/ObdachlosenWiki.vue'
+import UnmsteigHilfe from '@/components/UmsteigHilfe.vue'
+
+
+
+
 
 export default {
   name: 'HelloWorld',
   components: {
-    WeatherApi
+    WeatherApi,
+    MitarbeiterVerwaltung,
+    FooterComponent,
+    ObdachlosenWiki,
+    UnmsteigHilfe
   },
   props: {
     msg: String
