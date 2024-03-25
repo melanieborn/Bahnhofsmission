@@ -9,7 +9,7 @@
   <v-col cols="8">
     <v-card class="banner">
   Herzlich willkommen bei der Bahnhofsmission im Hauptbahnhof Berlin
-  <WeatherApi></WeatherApi>
+  <WeatherApi />
 </v-card>
   </v-col>
 </v-row>
