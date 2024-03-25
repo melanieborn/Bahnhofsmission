@@ -15,19 +15,32 @@
   </v-col>
 </v-row>
 <v-row>
-  <v-col cols="4">
-    <v-card>
+  <v-col cols="5">
+    <v-card class="cardstyle">
       <MitarbeiterVerwaltung />
     </v-card>
   </v-col>
-  <v-col cols="4">
-    <v-card>
+  <v-col cols="5">
+    <v-card >
+      <v-card-text class="cardstyle">
       <ObdachlosenWiki />
+    </v-card-text>
     </v-card>
   </v-col>
-  <v-col cols="4">
+</v-row>
+<v-row>
+  <v-col cols="5">
     <v-card>
+      <v-card-text class="cardstyle">
       <UnmsteigHilfe />
+    </v-card-text>
+    </v-card>
+  </v-col>
+  <v-col cols="5">
+    <v-card>
+      <v-card-text class="cardstyle">
+      <FirstSteps />
+    </v-card-text>
     </v-card>
   </v-col>
 
@@ -73,11 +86,7 @@ import MitarbeiterVerwaltung from '@/components/MitarbeiterVerwaltung.vue'
 import FooterComponent from '@/components/FooterComponent.vue'
 import ObdachlosenWiki from '@/components/ObdachlosenWiki.vue'
 import UnmsteigHilfe from '@/components/UmsteigHilfe.vue'
-
-
-
-
-
+import FirstSteps from '@/components/FirstSteps.vue'
 export default {
   name: 'HelloWorld',
   components: {
@@ -85,7 +94,8 @@ export default {
     MitarbeiterVerwaltung,
     FooterComponent,
     ObdachlosenWiki,
-    UnmsteigHilfe
+    UnmsteigHilfe,
+    FirstSteps
   },
   props: {
     msg: String
@@ -118,5 +128,9 @@ a {
 .banner {
   background-color: #0061a5;
   padding-top: 5px;
+}
+
+.cardstyle {
+  word-break: normal;
 }
 </style>
