@@ -6,8 +6,7 @@
       <img src="@/assets/ls_logo.gif">
     </div>
   </v-col>
-  
-  <v-col cols="8">
+    <v-col cols="8">
     <v-card class="banner">
   Herzlich willkommen bei der Bahnhofsmission im Hauptbahnhof Berlin
   <WeatherApi />
