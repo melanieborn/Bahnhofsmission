@@ -15,36 +15,42 @@
   </v-col>
 </v-row>
 <v-row>
-  <v-col cols="5">
+  <v-col cols="3">
     <v-card class="cardstyle">
       <MitarbeiterVerwaltung />
     </v-card>
   </v-col>
-  <v-col cols="5">
+  <v-col cols="4">
     <v-card >
       <v-card-text class="cardstyle">
       <ObdachlosenWiki />
     </v-card-text>
     </v-card>
   </v-col>
-</v-row>
-<v-row>
-  <v-col cols="5">
-    <v-card>
-      <v-card-text class="cardstyle">
-      <UnmsteigHilfe />
-    </v-card-text>
-    </v-card>
-  </v-col>
-  <v-col cols="5">
+  <v-col cols="4">
     <v-card>
       <v-card-text class="cardstyle">
       <FirstSteps />
     </v-card-text>
     </v-card>
   </v-col>
-
 </v-row>
+<!-- <v-row>
+  <v-col cols="4">
+    <v-card>
+      <v-card-text class="cardstyle">
+      <UnmsteigHilfe />
+    </v-card-text>
+    </v-card>
+  </v-col>
+  <v-col cols="4">
+    <v-card>
+      <v-card-text class="cardstyle">
+      <WeatherAPI />
+    </v-card-text>
+    </v-card>
+  </v-col>
+</v-row> -->
 <v-row>
   <v-col>
     <FooterComponent />
@@ -85,7 +91,6 @@ import WeatherApi from '@/components/WeatherApi.vue'
 import MitarbeiterVerwaltung from '@/components/MitarbeiterVerwaltung.vue'
 import FooterComponent from '@/components/FooterComponent.vue'
 import ObdachlosenWiki from '@/components/ObdachlosenWiki.vue'
-import UnmsteigHilfe from '@/components/UmsteigHilfe.vue'
 import FirstSteps from '@/components/FirstSteps.vue'
 export default {
   name: 'HelloWorld',
@@ -94,7 +99,6 @@ export default {
     MitarbeiterVerwaltung,
     FooterComponent,
     ObdachlosenWiki,
-    UnmsteigHilfe,
     FirstSteps
   },
   props: {
