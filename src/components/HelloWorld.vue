@@ -7,7 +7,7 @@
     </div>
   </v-col>
 
-    <v-col cols="8">
+    <v-col cols="9">
     <v-card class="banner">
   Herzlich willkommen bei der Bahnhofsmission im Hauptbahnhof Berlin
   <WeatherApi />
@@ -130,6 +130,7 @@ a {
 }
 
 .banner {
+  background-image: linear-gradient(to right, blue 0%, white 100%);
   background-color: #0061a5;
   padding-top: 5px;
 }

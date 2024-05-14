@@ -1,16 +1,16 @@
 <template>
     <v-container>
         <v-layout>
-          <v-bottom-navigation class="bottom" style="height: 56px">
+          <v-bottom-navigation grow class="bottom" style="height: 56px">
             <!-- Kontaktinformationen Anfang -->
             <v-dialog class="kontakt">
   <template v-slot:activator="{ props: activatorProps }">
     <v-btn
     id="v-btn"
+    variant="plain"
       v-bind="activatorProps"
       class="btn"
       text="Kontakt"
-      variant="flat"
     ></v-btn>
   </template>
   <template v-slot:default="{ isActive }">
@@ -24,6 +24,7 @@
       <v-card-actions>
         <v-spacer></v-spacer>
         <v-btn class="btn"
+        variant="plain"
           text="Schließen"
           @click="isActive.value = false"
         ></v-btn>
@@ -37,9 +38,9 @@
   <template v-slot:activator="{ props: activatorProps }">
     <v-btn
       v-bind="activatorProps"
+      variant="plain"
       class="btn"
       text="Impressum"
-      variant="flat"
     ></v-btn>
   </template>
 
@@ -51,6 +52,7 @@
       <v-card-actions>
         <v-spacer></v-spacer>
         <v-btn
+        variant="plain"
           class="btn"
           text="Schließen"
           @click="isActive.value = false"
@@ -65,10 +67,10 @@
 <v-dialog max-width="500">
   <template v-slot:activator="{ props: activatorProps }">
     <v-btn
+    variant="plain"
       v-bind="activatorProps"
       class="btn"
       text="Datentschutz"
-      variant="flat"
     ></v-btn>
   </template>
 
@@ -80,6 +82,7 @@
       <v-card-actions>
         <v-spacer></v-spacer>
         <v-btn
+        variant="plain"
           class="btn"
           text="Schließen"
           @click="isActive.value = false"
@@ -94,21 +97,22 @@
 <v-dialog max-width="500">
   <template v-slot:activator="{ props: activatorProps }">
     <v-btn
+    variant="plain"
       v-bind="activatorProps"
       class="btn"
       text="Spenden"
-      variant="flat"
     ></v-btn>
   </template>
 
   <template v-slot:default="{ isActive }">
-    <v-card title="Spendenkonot">
+    <v-card title="Spendenkonto">
       <v-card-text>
       Hier kommt das Spendenkonto hin und vllt. noch ein kleiner Text dazu
       </v-card-text>
       <v-card-actions>
         <v-spacer></v-spacer>
         <v-btn
+        variant="plain"
           class="btn"
           text="Schließen"
           @click="isActive.value = false"
@@ -132,7 +136,7 @@
   },
   }
 </script>
-<style>
+<style lang="scss">
 #v-btn:hover:before {
   background-color: lightgray !important;
   color:black !important;
@@ -147,10 +151,8 @@
   color:black !important;
 }
 .btn {
-  transition-duration: 2s !important;
-  background-color: lightgray;
+  background-color:lightgray;
   opacity: 0.5;
-
 }
 .bottom {
   background-color: lightgray;
