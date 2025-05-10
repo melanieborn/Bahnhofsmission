@@ -3,7 +3,9 @@
 <v-row>
     <v-col cols="12">
     <v-card class="banner">
-ObdachlosenWiki
+<v-card-text>
+  ObdachlosenWiki
+</v-card-text>
   <HeaderOwiki />
 </v-card>
   </v-col>
@@ -27,11 +29,38 @@ ObdachlosenWiki
   </v-col>
 </v-row>
 <v-row>
+  <v-col cols="12">
+    <v-card>
+      <v-card-text class="cardstyle">
+      <AnlaufstellenWiki />
+    </v-card-text>
+    </v-card>
+  </v-col>
+</v-row>
+<v-row>
+  <v-col cols="12">
+    <v-card>
+      <v-card-text class="cardstyle">
+      <EssenHygiene />
+    </v-card-text>
+    </v-card>
+  </v-col>
+</v-row>
+<v-row>
+  <v-col cols="12">
+    <v-card>
+      <v-card-text class="cardstyle">
+      <AntragWiki />
+    </v-card-text>
+    </v-card>
+  </v-col>
+</v-row>
+<v-row>
   <v-col>
     <FooterComponent />
   </v-col>
 </v-row>
-  </v-container>
+</v-container>
 </template>
 
 <script>
@@ -39,13 +68,22 @@ import HeaderOwiki from '@/components/HeaderOwiki.vue'
 import FooterComponent from '@/components/FooterComponent.vue'
 import ObdachlosenWiki from '@/components/ObdachlosenWiki.vue'
 import FirstSteps from '@/components/FirstSteps.vue'
+import AnlaufstellenWiki from '@/components/AnlaufstellenWiki.vue'
+import EssenHygiene from '@/components/EssenHygiene.vue'
+import AntragWiki from '@/components/AntragWiki.vue'
+
+
+
 export default {
   name: 'HelloWorld',
   components: {
     HeaderOwiki,
     FooterComponent,
     ObdachlosenWiki,
-    FirstSteps
+    FirstSteps,
+    AnlaufstellenWiki,
+    EssenHygiene,
+    AntragWiki
   },
   props: {
     msg: String
