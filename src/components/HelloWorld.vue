@@ -4,19 +4,21 @@
     <v-col cols="12">
     <v-card class="banner">
 ObdachlosenWiki
-  <WeatherApi />
+  <HeaderOwiki />
 </v-card>
   </v-col>
 </v-row>
 <v-row>
-  <v-col cols="4">
-    <v-card >
+  <v-col cols="12">
+    <v-card>
       <v-card-text class="cardstyle">
       <ObdachlosenWiki />
     </v-card-text>
     </v-card>
   </v-col>
-  <v-col cols="4">
+</v-row>
+<v-row>
+  <v-col cols="12">
     <v-card>
       <v-card-text class="cardstyle">
       <FirstSteps />
@@ -33,14 +35,14 @@ ObdachlosenWiki
 </template>
 
 <script>
-import WeatherApi from '@/components/WeatherApi.vue'
+import HeaderOwiki from '@/components/HeaderOwiki.vue'
 import FooterComponent from '@/components/FooterComponent.vue'
 import ObdachlosenWiki from '@/components/ObdachlosenWiki.vue'
 import FirstSteps from '@/components/FirstSteps.vue'
 export default {
   name: 'HelloWorld',
   components: {
-    WeatherApi,
+    HeaderOwiki,
     FooterComponent,
     ObdachlosenWiki,
     FirstSteps

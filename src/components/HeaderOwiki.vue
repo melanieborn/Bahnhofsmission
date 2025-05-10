@@ -5,10 +5,10 @@
       >
         <template v-slot:activator="{ props }">
           <v-btn
-            color="primary"
+          variant="text"
             v-bind="props"
           >
-            Scale Transition
+            Anlaufstellen
           </v-btn>
         </template>
   
@@ -28,10 +28,10 @@
       >
         <template v-slot:activator="{ props }">
           <v-btn
-            color="primary"
+          variant="text"
             v-bind="props"
           >
-            Slide X Transition
+            Essen / Unterkunkt / Hygiene
           </v-btn>
         </template>
   
@@ -51,10 +51,10 @@
       >
         <template v-slot:activator="{ props }">
           <v-btn
-            color="primary"
+          variant="text"
             v-bind="props"
           >
-            Slide Y Transition
+            Anträge
           </v-btn>
         </template>
         <v-list>
