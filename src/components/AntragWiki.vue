@@ -1,9 +1,10 @@
 <template>
     <v-container>
 Komponente für Anträge
-  <p v-for="user in AntragWikiJson" :key="user.id">
-    {{ user.name }}
+  <p v-for="antrag in AntragWikiJson" :key="antrag.id">
+    {{ antrag.name }}
   </p>
+  <p> {{ this.AntragWikiJson[1].name }} </p>
     </v-container>
 </template>
 
@@ -22,6 +23,9 @@ export default {
   },
   props: {
     msg: String
+  },
+  methods: {
+
   }
 }
 </script>

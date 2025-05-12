@@ -5,6 +5,7 @@
     <v-card class="banner">
 <v-card-text>
   ObdachlosenWiki
+  <p> {{ timestamp }} </p>
 </v-card-text>
   <HeaderOwiki />
 </v-card>
@@ -87,9 +88,41 @@ export default {
   },
   props: {
     msg: String
-  }
+  },
+      data: () => ({
+        timestamp: " "
+    }),
+    created() {
+              setInterval(this.getNow, 1000);
+            },
+    methods: {
+    goToAbout() {
+      this.$router.push('/about')
+    },
+    goToStart() {
+      this.$router.push('/')
+    },
+    goToKenntnisse() {
+      this.$router.push('/kenntnisse')
+    },
+    goToPdf() {
+      this.$router.push('/showPdf')
+    },
+    goToKontakt() {
+      this.$router.push('/kontakt')
+    },
+    getNow: function() {
+                    const today = new Date();
+                    const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+/*                     const time = today.getHours() + ":" + today.getMinutes() + ":";
+ */                    const dateTime = date;
+                    this.timestamp = dateTime;
+                }
+  },
+
 }
 </script>
+
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
