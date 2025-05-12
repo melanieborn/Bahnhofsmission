@@ -1,16 +1,15 @@
 <template>
     <v-container>
-Komponente für Anträge
+      <p> {{ this.title[3].content }} </p>
   <p v-for="antrag in AntragWikiJson" :key="antrag.id">
     {{ antrag.name }}
   </p>
-  <p> {{ this.AntragWikiJson[1].name }} </p>
     </v-container>
 </template>
 
 <script>
 import AntragWikiJson from '@/assets/Json/AntragWiki.json'
-import testJson from '@/assets/Json/test.json'
+import titleJson from '@/assets/Json/titles.json'
 
 
 export default {
@@ -18,7 +17,7 @@ export default {
   data() {
     return {
       AntragWikiJson: AntragWikiJson,
-      test: testJson
+      title: titleJson
     };
   },
   props: {

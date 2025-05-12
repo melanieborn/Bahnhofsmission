@@ -126,32 +126,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-
-.img {
-  width: 100%;
-  height: auto;
-}
-
 .banner {
   background-image: linear-gradient(to right, blue 0%, white 100%);
   background-color: #0061a5;
   padding-top: 5px;
 }
-
 .cardstyle {
   word-break: normal;
 }
