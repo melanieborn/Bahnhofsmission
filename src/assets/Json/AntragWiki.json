@@ -2,18 +2,14 @@
 [
     {
       "id": 0,
-      "name": "John"
+      "name": "Antrag Wohnung"
     },
     {
       "id": 1,
-      "name": "Jane"
+      "name": "Antrag Konto"
     },
     {
       "id": 2,
-      "name": "Jack"
-    },
-    {
-      "id": 3,
-      "name": "Jill"
+      "name": "Antrag Ausweis"
     }
   ]

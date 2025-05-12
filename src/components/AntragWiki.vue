@@ -9,12 +9,15 @@ Komponente für Anträge
 
 <script>
 import AntragWikiJson from '@/assets/Json/AntragWiki.json'
+import testJson from '@/assets/Json/test.json'
+
 
 export default {
   name: 'AntragWiki',
   data() {
     return {
       AntragWikiJson: AntragWikiJson,
+      test: testJson
     };
   },
   props: {
