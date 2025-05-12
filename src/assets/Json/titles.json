@@ -1,0 +1,19 @@
+
+[
+    {
+      "id": 0,
+      "content": "Wohnung"
+    },
+    {
+      "id": 1,
+      "content": "Konto"
+    },
+    {
+      "id": 2,
+      "content": "Ausweis"
+    },
+        {
+      "id": 3,
+      "content": "Anträge"
+    }
+  ]
