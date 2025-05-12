@@ -1,5 +1,14 @@
 <template>
   <v-container>
+<!--     <nav>
+      <v-col>
+      <RouterLink to="/owiki"   class="button" style="font-size:1.5vw;"
+      >testlink</RouterLink>
+  </v-col>
+  </nav>
+    <main>
+    <RouterView />
+  </main> -->
 <v-row>
     <v-col cols="12">
     <v-card class="banner">
@@ -96,20 +105,8 @@ export default {
               setInterval(this.getNow, 1000);
             },
     methods: {
-    goToAbout() {
-      this.$router.push('/about')
-    },
-    goToStart() {
-      this.$router.push('/')
-    },
-    goToKenntnisse() {
-      this.$router.push('/kenntnisse')
-    },
-    goToPdf() {
-      this.$router.push('/showPdf')
-    },
-    goToKontakt() {
-      this.$router.push('/kontakt')
+      goToOwiki() {
+      this.$router.push('/owiki')
     },
     getNow: function() {
                     const today = new Date();

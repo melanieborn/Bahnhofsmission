@@ -1,18 +1,12 @@
 <template>
     <v-container>
+      die Links werden direkt zu den Anträgen der Behörden führen Bsp.: 
+      <br />
+      <a href="https://service.berlin.de/dienstleistung/324485/" target="_blank">Hilfe auf einen Blick Berlin</a>. 
       <p> {{ this.title[3].content }} </p>
   <p v-for="antrag in AntragWikiJson" :key="antrag.id">
     {{ antrag.name }}
   </p>
-          <nav>
-          <v-col>
-            <RouterLink to="/owiki"   class="button" style="font-size:1.5vw;"
-            >Startseite</RouterLink>
-  </v-col>
-  </nav>
-    <main>
-    <RouterView />
-  </main>
     </v-container>
 </template>
 
@@ -36,9 +30,7 @@ export default {
     msg: String
   },
   methods: {
-    goToOwiki() {
-      this.$router.push('/owiki')
-    },
+
   }
 }
 </script>
