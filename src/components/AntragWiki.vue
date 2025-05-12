@@ -13,7 +13,6 @@
 
 <script>
 import AntragWikiJson from '@/assets/Json/AntragWiki.json'
-import links from '@/assets/Json/componentLinks.json'
 import titleJson from '@/assets/Json/titles.json'
 
 
@@ -23,7 +22,6 @@ export default {
     return {
       AntragWikiJson: AntragWikiJson,
       title: titleJson,
-      links: links
     };
   },
   props: {
