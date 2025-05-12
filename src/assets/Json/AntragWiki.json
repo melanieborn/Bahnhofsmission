@@ -2,14 +2,20 @@
 [
     {
       "id": 0,
+            "link": "'/owiki'",
+
       "name": "Antrag Wohnung"
     },
     {
       "id": 1,
+            "link": "'/owiki'",
+
       "name": "Antrag Konto"
     },
     {
       "id": 2,
+            "link": "'/owiki'",
+
       "name": "Antrag Ausweis"
     }
   ]
