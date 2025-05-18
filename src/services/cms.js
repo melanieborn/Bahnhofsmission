@@ -1,16 +1,3 @@
-import axios from 'axios'
-import { handleError, handleResponse } from '../helpers/api'
-import store from '../store'
-
-const apiCmsClient = axios.create({
-  baseURL: `${window.config.VUE_APP_CMS_API_BASE_URL}`
-})
-
-function getHeader() {
-  return {
-    headers: { Authorization: 'bearer ' + store.getters.jwtToken }
-  }
-}
 
 export const cmsService = {
   fetchContent,
@@ -18,7 +5,6 @@ export const cmsService = {
   get,
   getContent,
   fetchErrorContent,
-  letterTemplate
 }
 
 // fetches content from the cms-middleware
@@ -71,11 +57,4 @@ function filterCMSContent(array, filterValue) {
     return returnValue
   } 
 }
-function letterTemplate(payload) {
-  return apiCmsClient
-    .get('/stationery', payload, getHeader())
-    .then(handleResponse)
-    .catch(e => {
-      return handleError(e)
-    })
-}
+
