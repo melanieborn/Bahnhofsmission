@@ -1,0 +1,34 @@
+{
+    "stellenTempelhofSchoeneberg":[
+       {
+        "name":"Ev. Kirchengemeinde Lichtenrade",
+        "adresse":"Finchleystr. 10, 12305 Berlin",
+        "ausgabezeit": "Donnerstags ab 14:00 Uhr"
+       },
+       {
+        "name":" Dorotheé-Sölle-Haus",
+        "adresse":"Waldsassener Str. 9, 12279 Berlin",
+        "ausgabezeit": "Freitags ab 14 Uhr"
+       },
+       {
+        "name":"American Church in Berlin",
+        "adresse":"Dennewitzplatz, 10783 Berlin",
+        "ausgabezeit": "Freitags 16:00 Uhr bis 18:00 Uhr"
+       },
+       {
+        "name":"Ev. Kirchengemeinde Alt-Schöneberg",
+        "adresse":"Hauptstr. 48 / Haus I, 10827 Berlin",
+        "ausgabezeit": "Donnerstags ab 12:00 bis 14:00 Uhr"
+       },
+       {
+        "name":"Ev. Paulus-Kirchengemeinde Tempelhof",
+        "adresse":"Wolffring 72, 12101 Berlin",
+        "ausgabezeit": "Dienstags 13:15 Uhr bis 15:00 Uhr"
+       },
+       {
+        "name":"Ev. Kirchengemeinde Mariendorf-Ost",
+        "adresse":"Rixdorfer Str. 77, 12109 Berlin",
+        "ausgabezeit": "Donnerstags ab 13 Uhr"
+       }
+    ]
+ }
