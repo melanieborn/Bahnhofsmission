@@ -1,0 +1,19 @@
+{
+    "stellenLichtenberg":[
+       {
+        "name":"Gemeindezentrum Am Fennpfuhl",
+        "adresse":"Paul-Junius-Straße 75, 10369 Berlin",
+        "ausgabezeit": "Freitag ab 13:00 Uhr"
+       },
+       {
+        "name":"Ev. Kirchengemeinde Berlin-Wartenberg, Ladengeschäft",
+        "adresse":"Grevesmühlener Str. 16, 13059 Berlin",
+        "ausgabezeit": "Montags ab 14:00 Uhr"
+       },
+       {
+        "name":"Ev. Paul-Gerhardt-Gemeinde",
+        "adresse":"Alt-Friedrichsfelde 8 a/b, 10315 Berlin",
+        "ausgabezeit": "Donnerstag ab 15 Uhr"
+       }
+    ]
+ }
