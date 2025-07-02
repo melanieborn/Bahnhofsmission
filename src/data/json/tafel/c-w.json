@@ -1,0 +1,24 @@
+{
+    "stellencw":[
+       {
+          "name":"Ev. Trinitatisgemeinde",
+          "adresse":"Karl-August-Platz, 10625 Berlin",
+          "ausgabezeit": "Dienstag 11:30 Uhr bis 14:30 Uhr"
+       },
+       {
+          "name":"Ev. Kirchengemeinde Halensee",
+          "adresse":"Westfälische Straße 70a, 10709 Berlin",
+          "ausgabezeit": "Mittwochs ab 12:30 Uhr"
+       },
+       {
+        "name":"Ev. Kirchengemeinde Charlottenburg-Nord",
+        "adresse":"Gemeindezentrum Plötzensee, Heckerdamm 226, 13627 Berlin",
+        "ausgabezeit": "Mittwochs ab 13 Uhr"
+       },
+       {
+        "name":"Ev. Kirchengemeinde Epiphanien",
+        "adresse":"Knobelsdorffstraße 72/74, 14059 Berlin",
+        "ausgabezeit":"Freitags ab 13:00 Uhr"
+       }
+    ]
+ }
