@@ -1,0 +1,24 @@
+{
+    "stellenReinickendorf":[
+       {
+        "name":"Ev. Christuskirche",
+        "adresse":"Hasselwerderstr. 22 a, 12439 Berlin",
+        "ausgabezeit": "Donnerstags 16:00 Uhr bis 17:30 Uhr"
+       },
+       {
+        "name":"Evang.-Freikirchl. Gemeinde -Hofkirche Köpenick",
+        "adresse":"Lindenstraße 18-19 (Baustelle Fanhaus des 1. FC Union), 12555 Berlin",
+        "ausgabezeit": "Dienstags von 15:00 bis 17:00 Uhr"
+       },
+       {
+        "name":"Seniorenfreizeitstätte",
+        "adresse":"Berliner Str. 105-107, 13467 Berlin",
+        "ausgabezeit": "Samstags von 12 bis 15 Uhr"
+       },
+       {
+        "name":"Ev. Bekenntniskirche",
+        "adresse":"Plesser Straße 3, 12435 Berlin",
+        "ausgabezeit": "Dienstags 14:30 Uhr bis 16:00 Uhr"
+       }
+    ]
+ }
