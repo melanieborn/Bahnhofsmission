@@ -1,0 +1,34 @@
+{
+    "stellenReinickendorf":[
+       {
+        "name":"Ev. Evangeliumskirchengemeinde",
+        "adresse":"Klemkestr. 65, 13409 Berlin",
+        "ausgabezeit": "Dienstags 12:00 Uhr bis 14:00 Uhr"
+       },
+       {
+        "name":"Ev. Segenskirchengemeinde zu Berlin-Reinickendorf",
+        "adresse":"Auguste-Viktoria-Allee 17, 13403 Berlin",
+        "ausgabezeit": "Mittwochs 14:30 Uhr bis 16:00 Uhr"
+       },
+       {
+        "name":"Seniorenfreizeitstätte",
+        "adresse":"Berliner Str. 105-107, 13467 Berlin",
+        "ausgabezeit": "Samstags von 12 bis 15 Uhr"
+       },
+       {
+        "name":"Kath. Kirchengemeinde Sankt Martin",
+        "adresse":"Wilhelmsruher Damm 144, 13439 Berlin",
+        "ausgabezeit": "Dienstags ab 14:30 Uhr"
+       },
+       {
+        "name":"Kirchengemeinde Alt-Wittenau",
+        "adresse":"Alt-Wittenau 29 a, 13437 Berlin",
+        "ausgabezeit": "Freitags ab 13:00 Uhr"
+       },
+       {
+        "name":"Ev. Kirchengemeinde Tegel-Süd",
+        "adresse":"Ascheberger Weg 44, 13507 Berlin",
+        "ausgabezeit": "Samstags ab 13:00 Uhr"
+       }
+    ]
+ }
