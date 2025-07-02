@@ -1,0 +1,24 @@
+{
+    "stellenSteglitzZehlendorf":[
+       {
+        "name":"Ev. Dreifaltigkeits-Kirchengemeinde",
+        "adresse":"Gallwitzallee 6, 12249 Berlin",
+        "ausgabezeit": "Mittwochs ab 11:00 Uhr"
+       },
+       {
+        "name":"Ev. Kirchengemeinde Petrus-Giesensdorf",
+        "adresse":"Ostpreußendamm 64, 12207 Berlin",
+        "ausgabezeit": "Dienstag 13:00 bis 15:00 Uhr"
+       },
+       {
+        "name":"SCity-Kirchen Steglitz",
+        "adresse":"Schloßstr. 44d, 12165 Berlin",
+        "ausgabezeit": "Donnerstags ab 13:00 Uhr"
+       },
+       {
+        "name":"Ev. Stephanus-Kirchengemeinde",
+        "adresse":"Mühlenstr. 45, 14167 Berlin",
+        "ausgabezeit": "Dienstags 10:30 bis 13:30 Uhr"
+       }
+    ]
+ }
