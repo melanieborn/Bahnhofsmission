@@ -1,0 +1,19 @@
+{
+    "stellenNeukoelln":[
+       {
+        "name":"Ev. Dreieinigkeitskirche / Gropiusstadt",
+        "adresse":"Lipschitzallee 7, 12351 Berlin",
+        "ausgabezeit": "Montags 12:00 Uhr bis 16:00 Uhr"
+       },
+       {
+        "name":"Ev. Kirchengemeinde Martin Luther",
+        "adresse":"Fuldastraße 50, 12045 Berlin",
+        "ausgabezeit": "Mittwochs 14:00 Uhr bis 16:00 Uhr"
+       },
+       {
+        "name":"Ev. Kirchengemeinde Rixdorf",
+        "adresse":"Karl-Marx-Str. 197, 12055 Berlin",
+        "ausgabezeit": "Donnerstags 9:00 Uhr bis 14:00 Uhr"
+       }
+    ]
+ }
