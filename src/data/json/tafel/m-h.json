@@ -3,12 +3,12 @@
        {
         "name":"Ev.-luth. Missionsgemeinde Berlin-Marzahn",
         "adresse":"Schwarzburger Straße 8, 12687 Berlin",
-        "ausgabezeit": "Mittwochs 15:00 Uhr – 17:00 Uhr, Freitags 15:00 Uhr - 17:00 Uhr"
+        "ausgabezeit": "Mittwochs 15:00 Uhr bis 17:00 Uhr, Freitags 15:00 Uhr bis 17:00 Uhr"
        },
        {
         "name":"Ev. Kirchengemeinde Hellersdorf",
         "adresse":"Adorfer Straße 6, 12627 Berlin",
-        "ausgabezeit": "Mittwochs 12:00 Uhr – 14:00 Uhr"
+        "ausgabezeit": "Mittwochs 12:00 Uhr bis 14:00 Uhr"
        }
     ]
  }

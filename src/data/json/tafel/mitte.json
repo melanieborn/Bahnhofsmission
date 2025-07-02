@@ -1,0 +1,29 @@
+{
+    "stellenMitte":[
+       {
+        "name":"Evangelische Kirchengemeinde St. Marien-Friedrichswerder",
+        "adresse":"Waisenstraße 28, 10179 Berlin",
+        "ausgabezeit": "Dienstags 11:00 Uhr bis 13:00 Uhr"
+       },
+       {
+        "name":"Ev. Erlöserkirche",
+        "adresse":"Wikinger Ufer 9, 10555 Berlin",
+        "ausgabezeit": "Donnerstags 14:00 Uhr bis 16:00 Uhr"
+       },
+       {
+        "name":"Kirchengemeinde an der Panke",
+        "adresse":"Badstraße 50, 13357 Berlin",
+        "ausgabezeit": "Samstags ab 12:00 Uhr"
+       },
+       {
+        "name":"Ev. Kapernaum-Kirchengemeinde",
+        "adresse":"Seestraße 35, 13353 Berlin",
+        "ausgabezeit": "Dienstags 12:00 Uhr bis 13:40 Uhr"
+       },
+       {
+        "name":"Ev. Osterkirchengemeinde",
+        "adresse":"Samoastraße 14, 13353 Berlin",
+        "ausgabezeit": "Freitags 13:00 Uhr bis 14:00 Uhr"
+       }
+    ]
+ }
