@@ -1,0 +1,29 @@
+{
+    "stellenPankow":[
+       {
+        "name":"Kirchl. Begegnungszentrum Karow",
+        "adresse":"Achillesstr. 53, 13125 Berlin",
+        "ausgabezeit": "Donnerstag ab 15:00 Uhr"
+       },
+       {
+        "name":"Jugendfreizeitheim",
+        "adresse":"Tollerstr. 31, 13158 Berlin",
+        "ausgabezeit": "Donnerstags ab 12:00 Uhr"
+       },
+       {
+        "name":"Adventskirche",
+        "adresse":"Danziger Straße 201-203, 10407 Berlin",
+        "ausgabezeit": "Mittwochs ab 11:00 Uhr"
+       },
+       {
+        "name":"Evangelische Kirchengemeinde Prenzlauer Berg Nord",
+        "adresse":"Göhrenerstraße 11, 10437 Berlin",
+        "ausgabezeit": "Donnerstags ab 11:00 Uhr"
+       },
+       {
+        "name":"Ev.-Freikirchl. Gemeinde Berlin Weißensee",
+        "adresse":"Friesickestr. 15, 13086 Berlin",
+        "ausgabezeit": "Mittwochs"
+       }
+    ]
+ }
