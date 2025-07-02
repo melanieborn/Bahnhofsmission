@@ -1,0 +1,24 @@
+{
+    "stellenSpandau":[
+       {
+        "name":"Paul-Schneider-Haus",
+        "adresse":"Schönwalder Str. 24, 13585 Berlin",
+        "ausgabezeit": "Montags 13:00 Uhr bis 18:00 Uhr"
+       },
+       {
+        "name":"Ev. Paul-Gerhardt-Kirchengemeinde",
+        "adresse":"Im Spektefeld 26, 13589 Berlin",
+        "ausgabezeit": "Freitags 12:00 Uhr bis 16:00 Uhr"
+       },
+       {
+        "name":"Röm.-Kath. Kirchengemeinde St. Wilhelm und Ev. Kirchengemeinde St. Nikolai",
+        "adresse":"Weißenburger Str. 9-11, 13595 Berlin",
+        "ausgabezeit": "Mittwochs 12:00 bis 13:00 Uhr"
+       },
+       {
+        "name":"Gemeindehaus",
+        "adresse":"Pillnitzer Weg 8, 13593 Berlin",
+        "ausgabezeit": "Donnerstags ab 12:30 Uhr"
+       }
+    ]
+ }
