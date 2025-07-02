@@ -58,8 +58,9 @@
           </v-btn>
         </template>
         <v-list>
-          <v-list-item
+          <v-list-item 
             v-for="(item, i) in items"
+            :href="link.url"
             :key="i"
             :value="i"
           >
@@ -72,9 +73,9 @@
   
   <script setup>
     const items = [
-      { title: 'Click Me' },
-      { title: 'Click Me' },
-      { title: 'Click Me' },
-      { title: 'Click Me 2' },
+      { title: 'Berliner tafel', url: 'https://www.berliner-tafel.de/' },
+      { title: 'Click Me', url: 'https://www.berliner-tafel.de/' },
+      { title: 'Click Me', url: 'https://www.berliner-tafel.de/' },
+      { title: 'Click Me 2', url: 'https://www.berliner-tafel.de/' },
     ]
   </script>
