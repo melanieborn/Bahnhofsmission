@@ -1,0 +1,19 @@
+{
+    "stellencw":[
+       {
+        "name":"Evangelische Kirchengemeinde vor dem Halleschen Tor",
+        "adresse":"Marheinekeplatz 1,10961 Berlin",
+        "ausgabezeit": "Donnerstags 12:00 Uhr – 13:30 Uhr"
+       },
+       {
+        "name":"Evangelische Kirchengemeinde Kreuzberg",
+        "adresse":"Oranienstraße 132-134, 10969 Berlin",
+        "ausgabezeit": "Donnerstags ab 13:30 Uhr"
+       },
+       {
+        "name":"Ev. Kirchengemeinde Friedrichshain Süd, Zwinglikirche",
+        "adresse":"Rudolfstraße 14, 10245 Berlin",
+        "ausgabezeit": "Dienstags ab 13:30 Uhr, Neuanmeldungen um 16 Uhr"
+       }
+    ]
+ }
