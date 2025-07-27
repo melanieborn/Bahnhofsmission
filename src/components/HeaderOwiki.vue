@@ -1,5 +1,6 @@
 <template>
     <div class="d-flex justify-space-around">
+      statt menue doch besser tabs oder chips, nav bar
       <v-menu
         transition="scale-transition"
       >
