@@ -60,10 +60,9 @@
         <v-list>
           <v-list-item 
             v-for="(item, i) in items"
-            :href="link.url"
+            :to="item.url"
             :key="i"
-            :value="i"
-          >
+            >
             <v-list-item-title>{{ item.title }}</v-list-item-title>
           </v-list-item>
         </v-list>
@@ -73,7 +72,7 @@
   
   <script setup>
     const items = [
-      { title: 'Berliner tafel', url: 'https://www.berliner-tafel.de/' },
+      { title: 'Berliner tafel', url: '/owiki' },
       { title: 'Click Me', url: 'https://www.berliner-tafel.de/' },
       { title: 'Click Me', url: 'https://www.berliner-tafel.de/' },
       { title: 'Click Me 2', url: 'https://www.berliner-tafel.de/' },
